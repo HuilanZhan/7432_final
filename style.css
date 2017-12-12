@@ -30,3 +30,16 @@ h1 {
   padding-left: 300px;
   padding-right: 300px;
 }
+
+#story-title {
+  font-size: 28px;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+
+#author {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
