@@ -1,0 +1,36 @@
+/*tableauViz*/
+
+.wind-price {
+  width: 80%;
+}
+
+.wind-capacity {
+  width: 80%;
+}
+
+@media screen and (min-width: 450px /*mobile*/) {
+  article {
+    display: row;
+  }
+}
+
+@media screen and (min-width: 800px) {/*desktop*/
+  .wind-price {
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    grid-gap: 25px;
+    grid-gap: 25px;
+    padding: 15px;
+    grid-template-areas:
+    "a b";
+}
+    .price1 {
+        grid-area: a;
+      }
+
+    .price2 {
+        grid-area: b;
+      }
+  }
